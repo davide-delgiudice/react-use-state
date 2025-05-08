@@ -1,28 +1,14 @@
 import React from 'react'
-import languages from '../assets/languages';
+import Button from './Button'
 
 function Main() {
-
-  const sayHello = () => {
-    alert("Hello!");
-  };
 
   return (
     <main className='container'>
       <div>
         <h1>Learn Web development</h1>
       </div>
-      <div>
-        <ul>
-          {languages.map((language) => (
-            <li key={`language-${language.id}`}>
-              <button onClick={sayHello}>
-                {language.title}
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Button />
     </main>
   )
 }
