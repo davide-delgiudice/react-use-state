@@ -14,6 +14,10 @@ function Button() {
                 <button onClick={sayHello}>
                     {language.title}
                 </button>
+                <div className='card'>
+                    <h3>{language.title}</h3>
+                    {language.description}
+                </div>
             </li>
         ))}
         </ul>
