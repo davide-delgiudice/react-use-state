@@ -8,3 +8,43 @@
   width: 1200px;
   margin: auto;
 }
+
+/* MAIN */
+
+h1{
+  padding: 10px;
+  background-color: rgb(244, 244, 244);
+}
+
+
+/* BUTTON */
+
+.card-box{
+  width: 1000px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: left;
+}
+
+ul{
+  list-style: none;
+  gap: 20px;
+}
+
+button{
+  padding: 7px;
+  background-color: rgb(63, 135, 236);
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button.active{
+  background-color: gold;
+  color: black;
+}
