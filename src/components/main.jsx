@@ -2,7 +2,11 @@ import React from 'react'
 
 function Main() {
   return (
-    <div>Main</div>
+    <main>
+      <div className='container'>
+        <h1>Learn Web development</h1>
+      </div>
+    </main>
   )
 }
 
