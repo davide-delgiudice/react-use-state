@@ -1,10 +1,9 @@
 import React from 'react'
-import languages from '../assets/languages'
 
-const main = () => {
+function Main() {
   return (
-    <div>main</div>
+    <div>Main</div>
   )
 }
 
-export default main
+export default Main
